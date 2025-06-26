@@ -15,7 +15,7 @@ const LOG_THROTTLE_MS = 2000; // Only log every 2 seconds
 const CONFIG = {
     showDummyMesh: false,      // Whether to show the dummy geometry mesh
     showImportedMesh: true,   // Whether to show the imported mesh
-    numExtrusions: 60,       // Number of shadow extrusions to generate
+    numExtrusions: 80,       // Number of shadow extrusions to generate
     extrusionInterval: 0.25,  // Time interval between extrusions
     baseHour: 4,              // Starting hour for sun position
     minOpacity: 0.001,        // Minimum opacity when sun is at horizon
@@ -30,7 +30,7 @@ const CONFIG = {
     hourIntervalMinutes: 80,  // Time interval between extrusions in minutes
     offsetMinutes: 22,        // Offset in minutes so sequential days don't show exact same hours
     // Animation configuration
-    animateDay: false,         // Whether to animate through days of the year
+    animateDay: true,         // Whether to animate through days of the year
     animationSpeed: 2         // Number of frames per day change (higher = slower animation)
 };
 
